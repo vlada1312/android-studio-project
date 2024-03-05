@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onMyButtonClick(View view)
     {
-        textViewStudent.setText("Номер не определён");
-        checkBox.setText("Номер не определён");
+        textViewStudent.setText("Это не я сделал");
+        checkBox.setText("Это не я сделал");
     }
 }
