@@ -21,4 +21,9 @@
         android:name="ru.mirea.sosnovskayave.mireaproject.WebViewFragment"
         android:label="fragment_web_view"
         tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/backgroundActivity"
+        android:name="ru.mirea.sosnovskayave.mireaproject.backgroundActivity"
+        android:label="fragment_background_activity"
+        tools:layout="@layout/fragment_background_activity" />
 </navigation>

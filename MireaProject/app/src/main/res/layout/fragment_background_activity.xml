@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".backgroundActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="408dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="344dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/nav_host_fragment_content_main"
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_content_main" />
+</FrameLayout>

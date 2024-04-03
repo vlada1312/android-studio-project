@@ -14,8 +14,11 @@
             android:title="DataFragment" />
         <item
             android:id="@+id/webViewFragment"
-
             android:icon="@drawable/cell_tower"
             android:title="WebViewFragment" />
+        <item
+            android:id="@+id/backgroundActivity"
+            android:icon="@android:drawable/ic_partial_secure"
+            android:title="backgroundActivity" />
     </group>
 </menu>

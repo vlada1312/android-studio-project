@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="app">
+        <State />
+      </entry>
+      <entry key="cryptoloader">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\vlada\.android\avd\Pixel_6_API_33.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-04-01T16:52:13.150822600Z" />
+        </State>
+      </entry>
+      <entry key="data_thread">
+        <State />
+      </entry>
+      <entry key="looper">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\vlada\.android\avd\Pixel_6_API_33.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-03-30T15:48:41.868431300Z" />
+        </State>
+      </entry>
+      <entry key="musicplayer">
+        <State />
+      </entry>
+      <entry key="num1">
+        <State />
+      </entry>
+      <entry key="serviceapp">
+        <State />
+      </entry>
+      <entry key="thread">
+        <State />
+      </entry>
+      <entry key="workmanager">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>
