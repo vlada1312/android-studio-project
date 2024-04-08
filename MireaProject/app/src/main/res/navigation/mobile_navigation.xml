@@ -26,4 +26,19 @@
         android:name="ru.mirea.sosnovskayave.mireaproject.backgroundActivity"
         android:label="fragment_background_activity"
         tools:layout="@layout/fragment_background_activity" />
+    <fragment
+        android:id="@+id/lightSensorFragment"
+        android:name="ru.mirea.sosnovskayave.mireaproject.LightSensorFragment"
+        android:label="fragment_light_sensor"
+        tools:layout="@layout/fragment_light_sensor" />
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="ru.mirea.sosnovskayave.mireaproject.cameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/microphoneFragment"
+        android:name="ru.mirea.sosnovskayave.mireaproject.MicrophoneFragment"
+        android:label="fragment_microphone"
+        tools:layout="@layout/fragment_microphone" />
 </navigation>

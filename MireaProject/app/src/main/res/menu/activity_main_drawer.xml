@@ -20,5 +20,17 @@
             android:id="@+id/backgroundActivity"
             android:icon="@android:drawable/ic_partial_secure"
             android:title="backgroundActivity" />
+        <item
+            android:id="@+id/lightSensorFragment"
+            android:icon="@android:drawable/arrow_down_float"
+            android:title="lightSensorFragment" />
+        <item
+            android:id="@+id/cameraFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="cameraFragment" />
+        <item
+            android:id="@+id/microphoneFragment"
+            android:icon="@android:drawable/ic_btn_speak_now"
+            android:title="microphoneFragment" />
     </group>
 </menu>
