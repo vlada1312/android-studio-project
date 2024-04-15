@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/old"
+            android:layout_width="313dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="588dp"
+            android:ems="10"
+            android:hint="Введите возраст котика"
+            android:inputType="text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="313dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="196dp"
+            android:ems="10"
+            android:hint="Введите имя котика"
+            android:inputType="text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/OwnerName"
+            android:layout_width="313dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="464dp"
+            android:ems="10"
+            android:hint="Введите имя хозяина"
+            android:inputType="text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/Breed"
+            android:layout_width="313dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="328dp"
+            android:ems="10"
+            android:hint="Введите породу котика"
+            android:inputType="text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="143dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="288dp"
+            android:text="Порода:"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="303dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="60dp"
+            android:text="Профиль вашего котика!"
+            android:textSize="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="166dp"
+            android:layout_height="77dp"
+            android:layout_marginStart="104dp"
+            android:layout_marginTop="660dp"
+            android:text="Сохранить!"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="143dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="548dp"
+            android:text="Возраст:"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="143dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="424dp"
+            android:text="Имя хозяина:"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="143dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="156dp"
+            android:text="Имя котика:"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

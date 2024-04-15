@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="362dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="136dp"
+        android:ems="10"
+        android:hint="Названия файла"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="363dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="224dp"
+        android:ems="10"
+        android:hint="Цитата"
+        android:inputType="textMultiLine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="154dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="416dp"
+        android:onClick="save"
+        android:text="Сохранить данные в файл"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="159dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="416dp"
+        android:onClick="load"
+        android:text="Загрузить данные из файла"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

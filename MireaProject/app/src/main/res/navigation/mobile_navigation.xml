@@ -41,4 +41,14 @@
         android:name="ru.mirea.sosnovskayave.mireaproject.MicrophoneFragment"
         android:label="fragment_microphone"
         tools:layout="@layout/fragment_microphone" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ru.mirea.sosnovskayave.mireaproject.profileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/fileWorkFragment"
+        android:name="ru.mirea.sosnovskayave.mireaproject.fileWorkFragment"
+        android:label="fragment_file_work"
+        tools:layout="@layout/fragment_file_work" />
 </navigation>

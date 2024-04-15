@@ -32,5 +32,13 @@
             android:id="@+id/microphoneFragment"
             android:icon="@android:drawable/ic_btn_speak_now"
             android:title="microphoneFragment" />
+        <item
+            android:id="@+id/profileFragment"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="profileFragment" />
+        <item
+            android:id="@+id/fileWorkFragment"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="fileWorkFragment" />
     </group>
 </menu>
