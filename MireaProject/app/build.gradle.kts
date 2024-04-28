@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.androidApplication)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -35,6 +36,7 @@ android {
 }
 
 dependencies {
+    implementation("com.squareup.picasso:picasso:2.71828")
     implementation(libs.work.runtime)
     implementation(libs.appcompat)
     implementation(libs.material)
@@ -44,7 +46,9 @@ dependencies {
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
     implementation(libs.activity)
+    implementation(libs.firebase.auth)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
 }

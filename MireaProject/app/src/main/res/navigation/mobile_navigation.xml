@@ -51,4 +51,9 @@
         android:name="ru.mirea.sosnovskayave.mireaproject.fileWorkFragment"
         android:label="fragment_file_work"
         tools:layout="@layout/fragment_file_work" />
+    <fragment
+        android:id="@+id/networkResourceFragment"
+        android:name="ru.mirea.sosnovskayave.mireaproject.NetworkResourceFragment"
+        android:label="fragment_network_resource"
+        tools:layout="@layout/fragment_network_resource" />
 </navigation>
