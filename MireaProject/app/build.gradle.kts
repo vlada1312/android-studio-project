@@ -37,6 +37,11 @@ android {
 
 dependencies {
     implementation("com.squareup.picasso:picasso:2.71828")
+
+    implementation("org.osmdroid:osmdroid-android:6.1.16")
+    // библиотека для хранения данных SharedPreferences
+    implementation("androidx.preference:preference:1.2.0")
+
     implementation(libs.work.runtime)
     implementation(libs.appcompat)
     implementation(libs.material)

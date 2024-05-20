@@ -44,5 +44,9 @@
             android:id="@+id/networkResourceFragment"
             android:icon="@drawable/googleg_standard_color_18"
             android:title="networkResourceFragment" />
+        <item
+            android:id="@+id/establishmentsFragment"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="establishmentsFragment" />
     </group>
 </menu>

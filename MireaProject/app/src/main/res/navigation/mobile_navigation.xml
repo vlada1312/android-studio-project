@@ -56,4 +56,9 @@
         android:name="ru.mirea.sosnovskayave.mireaproject.NetworkResourceFragment"
         android:label="fragment_network_resource"
         tools:layout="@layout/fragment_network_resource" />
+    <fragment
+        android:id="@+id/establishmentsFragment"
+        android:name="ru.mirea.sosnovskayave.mireaproject.EstablishmentsFragment"
+        android:label="fragment_establishments"
+        tools:layout="@layout/fragment_establishments" />
 </navigation>

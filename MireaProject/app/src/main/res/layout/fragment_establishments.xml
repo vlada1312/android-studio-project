@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EstablishmentsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/openMapEst1Button"
+            android:layout_width="161dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="232dp"
+            android:text="Показать на карте"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/openMapEst3Button"
+            android:layout_width="161dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="712dp"
+            android:text="Показать на карте"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/openMapEst2Button"
+            android:layout_width="161dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="464dp"
+            android:text="Показать на карте"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewEst1"
+            android:layout_width="275dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="32dp"
+            android:text="Заведение Хвостатый.ру"
+            android:textSize="22dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewEst2"
+            android:layout_width="275dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="572dp"
+            android:text="Заведение Зверятам.ру"
+            android:textSize="22dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewEst3"
+            android:layout_width="275dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="332dp"
+            android:text="Заведение Динозаврик"
+            android:textSize="22dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/descEst3"
+            android:layout_width="406dp"
+            android:layout_height="91dp"
+            android:layout_marginTop="4dp"
+            android:text="Зоомагазин Динозаврик является крупной сетью розничных магазинов и одним из крупнейших интернет-зоомагазинов Московского региона.  "
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEst3" />
+
+        <TextView
+            android:id="@+id/descEst1"
+            android:layout_width="404dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="8dp"
+            android:text="Компания Хвостатый.ру была основана в 2009 году. В то время многих еще можно было удивить профессиональной консультацией при выборе корма, представленными на нашем сайте брендами, словом «холистик» и оперативной доставкой заказа силами собственной службы."
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.857"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEst1" />
+
+        <TextView
+            android:id="@+id/descEst2"
+            android:layout_width="410dp"
+            android:layout_height="97dp"
+            android:layout_marginTop="4dp"
+            android:text="Интернет-магазин товаров для домашних животных с доставкой на дом. В ассортименте представлены корма, витамины, игрушки и многое другое для ваших любимцев."
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEst2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
