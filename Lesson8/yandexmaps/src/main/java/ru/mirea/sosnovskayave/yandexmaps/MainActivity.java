@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements UserLocationObjec
         setContentView(binding.getRoot());
         mapView = binding.mapview;
         mapView.getMap().move(
-                new CameraPosition(new Point(55.751574, 37.573856), 11.0f, 0.0f,
+                new CameraPosition(new Point(37.453499,-122.181793), 11.0f, 0.0f,
                         0.0f),
                 new Animation(Animation.Type.SMOOTH, 0),
                 null);
@@ -83,21 +83,6 @@ public class MainActivity extends AppCompatActivity implements UserLocationObjec
             loadUserLocationLayer();
         }
     }
-//        int coarseLocationPermissionStatus = ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION);
-//        int fineLocationPermissionStatus = ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION);
-//        int backgroundLocationPermissionStatus = ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_BACKGROUND_LOCATION);
-//
-//
-//
-//        if	(coarseLocationPermissionStatus	== PackageManager.PERMISSION_GRANTED && fineLocationPermissionStatus == PackageManager.PERMISSION_GRANTED
-//            && backgroundLocationPermissionStatus	== PackageManager.PERMISSION_GRANTED)	{
-//            isWork = true;
-//        } else {
-//            ActivityCompat.requestPermissions(this, new	String[] {Manifest.permission.ACCESS_FINE_LOCATION,
-//                    android.Manifest.permission.ACCESS_COARSE_LOCATION }, REQUEST_CODE_PERMISSION);
-//            ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_BACKGROUND_LOCATION}, REQUEST_CODE_PERMISSION);
-//        }
-
 
 
     @Override

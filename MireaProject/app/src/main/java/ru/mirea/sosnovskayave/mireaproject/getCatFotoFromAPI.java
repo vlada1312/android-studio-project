@@ -91,28 +91,15 @@ public class getCatFotoFromAPI extends AsyncTask<String, Void, String>  {
         try {
             JSONArray jsonArray = new JSONArray(result);
             if (jsonArray.length() > 0) {
-//                JSONObject cat = jsonObject.getJSONObject("url");
-//                String imageUrl = jsonObject.getString("url");
-
                 JSONObject firstItem = jsonArray.getJSONObject(0);
                 String url = firstItem.getString("url");
                 Picasso.get().load(url).into(imageView);
-
-//                String text = currentWeather.getJSONObject("condition").getString("text");
-//                double tempC = currentWeather.getDouble("temp_c");
-//                double windKph = currentWeather.getDouble("wind_kph");
-//                int humidity = currentWeather.getInt("humidity");
-
-//                String weather = String.format(Locale.US,"Погода: %s, температура: %s, скорость ветра: %s, влажность: %s", text, tempC, windKph, humidity);
-
                 Toast.makeText(imageView.getContext(), "Фото получено", Toast.LENGTH_SHORT).show();
-//                textViewTemperature.setText(weather);
             } else {
-//                textViewTemperature.setText("Информация о погоде недоступна");
+                Toast.makeText(imageView.getContext(), "Информация недоступна", Toast.LENGTH_SHORT).show();
             }
         } catch (JSONException e) {
-            Log.e("FetchWeatherTask", "Error parsing weather data", e);
-//            textViewTemperature.setText("Ошибка парсинга данных о погоде");
+            Log.e("Task", "Error", e);
         }
     }
 }

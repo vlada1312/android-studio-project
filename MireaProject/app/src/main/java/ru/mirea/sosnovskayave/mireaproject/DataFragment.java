@@ -79,7 +79,6 @@ public class DataFragment extends Fragment {
         textView.setText("Услуги (груминг, ветеринарные услуги, питомникио и тели для животных)");
         textView = view.findViewById(R.id.textView8);
         textView.setText("Эта отрасль постоянно развивается и инновации в области продуктов и услуг для котов становятся все более популярными.");
-        ;
 
         return view;
     }
